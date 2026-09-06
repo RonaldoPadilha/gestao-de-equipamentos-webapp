@@ -86,8 +86,8 @@ public sealed class ContextoJson
 
         contextoPredefinido.Equipamentos.AddRange(new List<Equipamento>
         {
-            new("Notebook Dell", 3000m, DateTime.Parse("02/10/2023"), contextoPredefinido.Fabricantes[0]) { Id = 1 },
-            new("Monitor Acer", 600m, DateTime.Parse("08/25/2025"), contextoPredefinido.Fabricantes[3]) { Id = 2 },
+            new("Notebook Dell", 3000m, DateTime.Parse("10/02/2023"), contextoPredefinido.Fabricantes[0]) { Id = 1 },
+            new("Monitor Acer", 600m, DateTime.Parse("25/08/2025"), contextoPredefinido.Fabricantes[3]) { Id = 2 },
         });
 
         contextoPredefinido.Chamados.AddRange(new List<Chamado>
