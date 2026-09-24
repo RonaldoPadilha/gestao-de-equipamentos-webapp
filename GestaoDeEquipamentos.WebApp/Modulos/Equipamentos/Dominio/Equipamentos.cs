@@ -9,11 +9,14 @@ public sealed class Equipamento : EntidadeBase
     public DateTime DataFabricacao { get; set; }
     public Fabricante Fabricante { get; set; } = null!;
 
-    public Equipamento()
-    {
-    }
+    public Equipamento() { }
 
-    public Equipamento(string nome, decimal precoAquisicao, DateTime dataFabricacao, Fabricante fabricante)
+    public Equipamento(
+        string nome,
+        decimal precoAquisicao,
+        DateTime dataFabricacao,
+        Fabricante fabricante
+    )
     {
         Nome = nome;
         PrecoAquisicao = precoAquisicao;
