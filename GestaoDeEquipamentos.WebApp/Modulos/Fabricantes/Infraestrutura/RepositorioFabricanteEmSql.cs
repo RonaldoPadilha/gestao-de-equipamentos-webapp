@@ -15,7 +15,7 @@ public sealed class RepositorioFabricanteEmSql : IRepositorioFabricante
 
     public void Cadastrar(Fabricante novoRegistro)
     {
-        tconst string query =
+        const string query =
             """
             INSERT INTO dbo.TBFabricantes (Nome, Email, Telefone)
             OUTPUT INSERTED.Id
